@@ -1,0 +1,24 @@
+
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container .navContainer, .mainContainer{
+  height: 100vh;
+}
+
+.container .mainContainer{
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+}
+
+.container .navContainer{
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
