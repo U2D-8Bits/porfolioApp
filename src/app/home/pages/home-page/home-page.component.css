@@ -27,3 +27,55 @@
   justify-content: space-between;
 }
 
+p{
+  color: var(--color-secondary);
+}
+
+h2{
+  font-family: var(--font-family-poppins);
+  margin-bottom: 10px;
+}
+
+.about-me{
+  font-family: var(--font-family-poppins);
+  margin-bottom: 10px;
+}
+
+.btnDownload{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 170px;
+  height: 50px;
+  border-radius: 4px;
+  font-family: var(--font-family-poppins);
+  cursor: pointer;
+}
+
+.btnDownload i{
+  color: var(--color-secondary);
+}
+
+.btnDownload:hover{
+  background: var(--color-secondary);
+}
+
+.btnDownload:hover > i,
+.btnDownload:hover > p {
+  color: var(--color-light);
+}
+
+
+.img-Container img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.img-Container{
+  margin-top: 20px;
+}
+
+.img-Container a {
+  text-decoration: none;
+}
