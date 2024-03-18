@@ -1,5 +1,5 @@
 .container{
-  background: var(--color-gray-primary);
+  background: var(--color-gray-secondary);
   height: 100vh;
   width: 300px;
   display: flex;

@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 100vh;
     width: 78vw;
-    background-color: #f5f5f5;
+    background-color: var(--color-light);
     padding: 10px;
 }
 
@@ -65,17 +65,37 @@ h2{
   color: var(--color-light);
 }
 
-
-.img-Container img {
-  width: 100px;
-  height: 100px;
-}
-
-
-.img-Container{
+.lbl-social{
   margin-top: 20px;
 }
 
-.img-Container a {
-  text-decoration: none;
+.linkContainer{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+}
+
+.linkContainer a{
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a #linkedin{
+  color: #0077b5;
+}
+
+a #github{
+  color: #333;
+}
+
+#instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
