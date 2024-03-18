@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 :root{
@@ -28,9 +28,15 @@
   --color-gray-darkest: #2F4F4F;
   --color-gray-lightest: #F5F5F5;
   --color-gray-lighter: #DCDCDC;
-  --color-gray-primary: #3e4144;
+  --color-gray-primary: #444444;
   --color-gray-secondary: #45484a;
   --color-gray-tertiary: #474b4e;
+
+  /* XBOX Color Palette */
+  --color-green-lightest: #77bb44;
+  --color-green-light: #2ca243;
+  --color-green-dark: #107c10;
+
 
 
   /* Fuentes */

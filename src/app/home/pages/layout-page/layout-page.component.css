@@ -10,6 +10,7 @@
 }
 
 .container .mainContainer{
+  width: 78vw;
   flex: 1;
   overflow: auto;
   padding: 20px;
