@@ -11,6 +11,7 @@ import { HomeLayoutPageComponent } from './pages/layout-page/layout-page.compone
 import { RouterLink } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { EducationPageComponent } from './pages/education-page/education-page.component';
+import { PrimeNGModule } from '../prime-ng/prime-ng.module';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { EducationPageComponent } from './pages/education-page/education-page.co
     CommonModule,
     HomeRoutingModule,
     RouterLink,
-    SharedModule
+    SharedModule,
+    PrimeNGModule,
   ],
   exports: [
     AboutPageComponent,

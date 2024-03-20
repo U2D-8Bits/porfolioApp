@@ -9,18 +9,28 @@
   </div>
 
   <h2 for="">Welcome to my Website</h2>
-  <label for="">If you want to know more about me and my professional career you can download my Resume</label>
+  <label class="about-me" for="">Hi, I'm Pablo, a Frontend developer, for whom computer programming has been my passion since I was in high school. I have been able to further develop my skills in Computer Programming while learning other facets within the same shift. I have been able to learn several other programming languages, but my current focus is web development.</label>
 
-  <button>
-    Download Resume
+  <button class="btnDownload" (click)="descargarPDF()">
+    <i class="pi pi-download"></i>
+    <p>Download Resume</p>
   </button>
 
-  <div class="img-Container">
+  <label class="lbl-social" for="">My social networks:</label>
 
-    <img src="" alt="Linkedin">
-    <img src="" alt="GitHub">
-    <img src="" alt="Istagram">
+  <div class="linkContainer">
 
+    <a href="https://www.linkedin.com/in/israelbolanos/">
+      <i id="linkedin" class="pi pi-linkedin" style="font-size: 2rem"></i>
+    </a>
+
+    <a href="https://github.com/U2D-8Bits">
+      <i id="github" class="pi pi-github" style="font-size: 2rem"></i>
+    </a>
+
+    <a id="instagram" href="https://www.instagram.com/u2d.8bits?igsh=ZTFuMHRmc2pvc3cx">
+      <i class="pi pi-instagram" style="font-size: 2rem"></i>
+    </a>
   </div>
 
 </div>

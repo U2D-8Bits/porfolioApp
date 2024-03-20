@@ -2,13 +2,15 @@
 /* Import de las Fuentes (Poppins &  Roboto) */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
 /* Estilos Globales */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 :root{
@@ -26,9 +28,15 @@
   --color-gray-darkest: #2F4F4F;
   --color-gray-lightest: #F5F5F5;
   --color-gray-lighter: #DCDCDC;
-  --color-gray-primary: #3e4144;
+  --color-gray-primary: #444444;
   --color-gray-secondary: #45484a;
   --color-gray-tertiary: #474b4e;
+
+  /* XBOX Color Palette */
+  --color-green-lightest: #77bb44;
+  --color-green-light: #2ca243;
+  --color-green-dark: #107c10;
+
 
 
   /* Fuentes */
