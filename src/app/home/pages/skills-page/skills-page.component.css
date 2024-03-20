@@ -1,0 +1,79 @@
+.skill-Container{
+  width: 78vw;
+  height: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.skill-Container header{
+  width: 100%;
+}
+
+header h1 {
+  display: flex;
+  color: var(--color-dark);
+  margin-bottom: 10px;
+  font-family: var(--font-family-poppins);
+}
+
+h1 p {
+  color: var(--color-secondary);
+  margin-left: 10px;
+}
+
+
+
+.Box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Box h3 {
+  margin-bottom: 10px;
+}
+
+.Box .content {
+  width: 400px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#general{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 4px;
+}
+
+.cpp-Box{
+  /* Un color que combine con el azul */
+  background-color: #1E90FF;
+}
+
+#svg-logo{
+  width: 45px;
+  height: 45px;
+}
+
+#text-logo{
+  color: var(--color-light);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-bold);
+}
+
+
+.cs-Box{
+  background: #682387;
+}
+
+.jv-Box{
+  background: var(--color-secondary);
+}
+
+.h-Box{
+  /* Color que combine con el naranja */
+  background: #FF6347;
+}
